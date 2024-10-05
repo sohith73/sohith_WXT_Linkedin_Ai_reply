@@ -1,0 +1,25 @@
+{
+     "manifest_version": 3,
+     "name": "LinkedIn Reply Assistant",
+     "version": "1.0",
+     "permissions": [
+          "activeTab"
+     ],
+     "background": {
+          "service_worker": "background.ts"
+     },
+     "content_scripts": [
+          {
+               "matches": [
+                    "*://www.linkedin.com/*"
+               ],
+               "js": [
+                    "content.ts"
+               ]
+          }
+     ],
+     "action": {
+          "default_popup": "popup.html",
+          "default_icon": "icon.png"
+     }
+}
