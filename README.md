@@ -39,6 +39,6 @@ I spent a few hours understanding how LinkedIn works—specifically how the mess
 
 ## Bugs
 1. **LinkedIn's loading time** - It varies, but sometimes it loads late.
-2. **msg-overlay-list-bubble--is-minimized** - This issue affects message visibility.
-3. **Logo disappearing** - Sometimes, when a user is in between chats and suddenly refreshes, the logo disappears. It only reappears when the user clicks on their connections' chat again.
-4. **Text overlapping** - The generated message sometimes overlaps with LinkedIn's "Write a message..." placeholder.
+2. **Logo disappearing** - Sometimes, when a user is in between chats and suddenly refreshes, the logo disappears. It only reappears when the user clicks on their connections' chat again.
+3. **Text overlapping** - The generated message sometimes overlaps with LinkedIn's "Write a message..." placeholder.
+4. **Text in wrong order in input box** - when message inserted and user tries to enter new message it is appearing first and inserted comes after so i solved it .
